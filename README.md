@@ -1,6 +1,7 @@
 # ajson
 The Specification of algebraic JSON
 
+```
 (* OCaml *)
 type json = 
   | Object of (string * json) list
@@ -11,6 +12,7 @@ type json =
   | List of json list
   | Null
   | Union of string * json
+```
 
 example.
 
